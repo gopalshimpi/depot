@@ -26,12 +26,12 @@ class ProductsControllerTest < ActionController::TestCase
   end
 
   test "should show product" do
-    get :show, id: @product
+    get :show, id: @product.id
     assert_response :success
   end
 
   test "should get edit" do
-    get :edit, id: @product
+    get :edit, id: @product.id
     assert_response :success
   end
 
@@ -47,4 +47,13 @@ class ProductsControllerTest < ActionController::TestCase
 
     assert_redirected_to products_path
   end
+
+  test "can't delete product in cart" do
+    assert_difference('Product.count', 0) do
+      delete product_url(products(:two))
+    end
+    assert_redirected_to products_url
+  end
+
+
 end

@@ -27,6 +27,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
 
+gem 'pry-rails', :group => :development
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
