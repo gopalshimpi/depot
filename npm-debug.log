@@ -1,0 +1,147 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'coffeescript' ]
+2 info using npm@3.5.2
+3 info using node@v4.2.6
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData coffeescript
+8 silly fetchNamedPackageData coffeescript
+9 silly mapToRegistry name coffeescript
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/coffeescript
+13 verbose request uri https://registry.npmjs.org/coffeescript
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 1:38:45 PM
+16 verbose request id 8a2917e2f5edf396
+17 http request GET https://registry.npmjs.org/coffeescript
+18 http 200 https://registry.npmjs.org/coffeescript
+19 verbose headers { server: 'nginx/1.10.1',
+19 verbose headers   'content-type': 'application/json',
+19 verbose headers   'last-modified': 'Mon, 17 Jul 2017 06:57:22 GMT',
+19 verbose headers   etag: 'W/"596c5fd2-121c0"',
+19 verbose headers   'content-encoding': 'gzip',
+19 verbose headers   'cache-control': 'max-age=300',
+19 verbose headers   'content-length': '8072',
+19 verbose headers   'accept-ranges': 'bytes',
+19 verbose headers   date: 'Wed, 19 Jul 2017 08:08:46 GMT',
+19 verbose headers   via: '1.1 varnish',
+19 verbose headers   age: '0',
+19 verbose headers   connection: 'keep-alive',
+19 verbose headers   'x-served-by': 'cache-lcy1121-LCY',
+19 verbose headers   'x-cache': 'MISS',
+19 verbose headers   'x-cache-hits': '0',
+19 verbose headers   'x-timer': 'S1500451727.895099,VS0,VE61',
+19 verbose headers   vary: 'Accept-Encoding, Accept' }
+20 silly get cb [ 200,
+20 silly get   { server: 'nginx/1.10.1',
+20 silly get     'content-type': 'application/json',
+20 silly get     'last-modified': 'Mon, 17 Jul 2017 06:57:22 GMT',
+20 silly get     etag: 'W/"596c5fd2-121c0"',
+20 silly get     'content-encoding': 'gzip',
+20 silly get     'cache-control': 'max-age=300',
+20 silly get     'content-length': '8072',
+20 silly get     'accept-ranges': 'bytes',
+20 silly get     date: 'Wed, 19 Jul 2017 08:08:46 GMT',
+20 silly get     via: '1.1 varnish',
+20 silly get     age: '0',
+20 silly get     connection: 'keep-alive',
+20 silly get     'x-served-by': 'cache-lcy1121-LCY',
+20 silly get     'x-cache': 'MISS',
+20 silly get     'x-cache-hits': '0',
+20 silly get     'x-timer': 'S1500451727.895099,VS0,VE61',
+20 silly get     vary: 'Accept-Encoding, Accept' } ]
+21 verbose get saving coffeescript to /home/gopal/.npm/registry.npmjs.org/coffeescript/.cache.json
+22 verbose makeDirectory /home/gopal/.npm creation not in flight; initializing
+23 silly makeDirectory /home/gopal/.npm uid: 1000 gid: 1000
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule coffeescript@1.12.7 checking installable status
+37 silly cache add args [ 'coffeescript', null ]
+38 verbose cache add spec coffeescript
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'coffeescript',
+39 silly cache add   scope: null,
+39 silly cache add   name: 'coffeescript',
+39 silly cache add   rawSpec: '',
+39 silly cache add   spec: 'latest',
+39 silly cache add   type: 'tag' }
+40 silly addNamed coffeescript@latest
+41 verbose addNamed "latest" is being treated as a dist-tag for coffeescript
+42 info addNameTag [ 'coffeescript', 'latest' ]
+43 silly mapToRegistry name coffeescript
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry uri https://registry.npmjs.org/coffeescript
+47 verbose addNameTag registry:https://registry.npmjs.org/coffeescript not in flight; fetching
+48 verbose get https://registry.npmjs.org/coffeescript not expired, no request
+49 silly addNameTag next cb for coffeescript with tag latest
+50 silly addNamed coffeescript@1.12.7
+51 verbose addNamed "1.12.7" is a plain semver version for coffeescript
+52 silly mapToRegistry name coffeescript
+53 silly mapToRegistry using default registry
+54 silly mapToRegistry registry https://registry.npmjs.org/
+55 silly mapToRegistry uri https://registry.npmjs.org/coffeescript
+56 verbose addRemoteTarball https://registry.npmjs.org/coffeescript/-/coffeescript-1.12.7.tgz not in flight; adding
+57 verbose addRemoteTarball [ 'https://registry.npmjs.org/coffeescript/-/coffeescript-1.12.7.tgz',
+57 verbose addRemoteTarball   'e57ee4c4867cf7f606bfc4a0f2d550c0981ddd27' ]
+58 info retry fetch attempt 1 at 1:38:47 PM
+59 info attempt registry request try #1 at 1:38:47 PM
+60 http fetch GET https://registry.npmjs.org/coffeescript/-/coffeescript-1.12.7.tgz
+61 http fetch 200 https://registry.npmjs.org/coffeescript/-/coffeescript-1.12.7.tgz
+62 silly fetchAndShaCheck shasum e57ee4c4867cf7f606bfc4a0f2d550c0981ddd27
+63 verbose addTmpTarball /tmp/npm-7552-ac7061b8/registry.npmjs.org/coffeescript/-/coffeescript-1.12.7.tgz not in flight; adding
+64 verbose addTmpTarball already have metadata; skipping unpack for coffeescript@1.12.7
+65 silly cache afterAdd coffeescript@1.12.7
+66 verbose afterAdd /home/gopal/.npm/coffeescript/1.12.7/package/package.json not in flight; writing
+67 verbose afterAdd /home/gopal/.npm/coffeescript/1.12.7/package/package.json written
+68 silly loadAllDepsIntoIdealTree Finishing
+69 silly idealTree:prePrune lib
+69 silly idealTree:prePrune `-- coffeescript@1.12.7
+70 silly loadIdealTree Finishing
+71 silly currentTree lib
+72 silly idealTree lib
+72 silly idealTree `-- coffeescript@1.12.7
+73 silly generateActionsToTake Starting
+74 silly install generateActionsToTake
+75 warn checkPermissions Missing write access to /usr/local/lib
+76 silly rollbackFailedOptional Starting
+77 silly rollbackFailedOptional Finishing
+78 silly runTopLevelLifecycles Starting
+79 silly runTopLevelLifecycles Finishing
+80 silly install printInstalled
+81 verbose stack Error: EACCES: permission denied, access '/usr/local/lib'
+81 verbose stack     at Error (native)
+82 verbose cwd /home/gopal/myprojects/depot
+83 error Linux 4.8.0-36-generic
+84 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "coffeescript"
+85 error node v4.2.6
+86 error npm  v3.5.2
+87 error path /usr/local/lib
+88 error code EACCES
+89 error errno -13
+90 error syscall access
+91 error Error: EACCES: permission denied, access '/usr/local/lib'
+91 error     at Error (native)
+91 error  { [Error: EACCES: permission denied, access '/usr/local/lib']
+91 error   errno: -13,
+91 error   code: 'EACCES',
+91 error   syscall: 'access',
+91 error   path: '/usr/local/lib' }
+92 error Please try running this command again as root/Administrator.
+93 verbose exit [ -13, true ]
